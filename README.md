@@ -72,8 +72,10 @@ To train the model, use the following script in your Colab notebook:
 ```python
 from ultralytics import YOLO
 
-model = YOLO('yolov8m.pt')
-results = model.train(data='path/to/your/data.yaml', epochs=30, imgsz=640, batch=16)
+model1 = YOLO('yolov8m.pt')
+results1 = model.train(data='path/to/your/data.yaml', epochs=30, imgsz=640, batch=16)
+model2= YOLO('yolov8n.pt')
+results2 = model.train(data='path/to/your/data.yaml', epochs=30, imgsz=640, batch=16) 
 ```
 
 ### Evaluating the Model
