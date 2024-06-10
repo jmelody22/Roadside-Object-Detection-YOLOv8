@@ -40,8 +40,9 @@ This project aims to detect and recognize common objects seen on roadsides using
 
 3. Install Required Packages:
    - Install the necessary packages:
-   ```!pip install ultralytics==8.0.196
- !pip install roboflow
+   ```python
+   !pip install ultralytics==8.0.196
+   !pip install roboflow
    ```
 
 ## Usage
