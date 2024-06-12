@@ -61,7 +61,7 @@ The dataset is sourced from RoboFlow. To access it, follow these steps:
    from roboflow import Roboflow
    
    rf = Roboflow(api_key="YOUR_API_KEY")
-   project = rf.workspace().project("your-project-name")
+   project = rf.workspace().project("Roadside Object Detection")
    dataset = project.version("1").download("yolov8")
    ```
 
